@@ -202,4 +202,50 @@
     font-size: 18px;
     color: #fff;
 }
-
+@media screen and (max-width: 1200px){
+    .topo nav{
+        width: 80%;
+    }
+    .content{
+        width: 80%;
+    }
+    .sobre{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bk_sobre{
+        height: auto;
+        padding-bottom: 4em;
+    }
+    .conteudo_sobre{
+        flex-direction: column;
+    }
+    .conteudo_sobre img{
+        width: 100%;
+        max-width: 600px;
+        margin-bottom: 2em;
+    }
+    .info_card p{
+        width: 220px;
+    }
+    .endereco{
+        height: auto;
+        padding: 3em 0;
+    }
+    .text-endereco{
+        width: 100%;
+        max-width: 900px;
+        height: auto;
+        flex-direction: column;
+        padding: 0 2em;
+    }
+    .text-endereco p{
+        margin-left: unset;
+        margin-bottom: 2em;
+    }
+    .text-endereco img{
+        position: unset;
+    }
+}
